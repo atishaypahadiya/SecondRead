@@ -24,8 +24,8 @@ stack:                       # README intro, "Stack"
   - SQLite
 model: qwen3:14b via Ollama, on a 24 GB M4 Pro      # README "Evaluation" (speed: "on a 24 GB M4 Pro with qwen3:14b")
 links:
-  source: https://github.com/atishaypahadiya/second-read
-  page: https://atishaypahadiya.github.io/second-read/
+  source: https://github.com/atishaypahadiya/SecondRead
+  page: https://atishaypahadiya.github.io/SecondRead/
 
 goals:
   - title: Text only

@@ -1,6 +1,6 @@
 # Second Read
 
-[Project page](https://atishaypahadiya.github.io/second-read/) · [source of the page](docs/index.html) ·
+[Project page](https://atishaypahadiya.github.io/SecondRead/) · [source of the page](docs/index.html) ·
 [project.yml](project.yml)
 
 ![The player right after a skip: the read's marker has gone quiet, an integration is outlined further along, the next read is filled, and a toast reports 0:58 skipped with Undo and Wrong skip](docs/img/player-hero.png)
