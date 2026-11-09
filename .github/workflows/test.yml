@@ -1,0 +1,28 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      # README, project.yml and docs/index.html agree on every number, and nothing is left unclosed.
+      - name: Page check
+        run: python3 scripts/check_page.py
+      # The extension wiring test and the 77 rule checks. The video rows replay cached transcripts, which are
+      # gitignored (server/cache/), so here they report "not run"; a failure in what does run fails the job.
+      - name: Regression
+        run: python3 scripts/regress.py
