@@ -2,7 +2,7 @@
    Shared by the player overlays (badge, marker lane, toast, ad panel), the popup and the dashboard.
    Source of truth for visuals: design/reference/mockup.html (4 boards). Values below are extracted from it.
    Rules: monochrome + one accent; hierarchy by opacity; depth by tone; no shadows, no borders.
-   See DESIGN.md for the rationale and MERGE_NOTES.md for how each surface adopts these. */
+   See DESIGN.md for the rationale and design/MERGE_NOTES.md for how each surface adopts these. */
 
 /* Fonts live in fonts.css (extension pages, dashboard, gallery: relative URLs) and fonts-content.css (the
    YouTube page: content-script CSS resolves relative URLs against youtube.com, so it needs absolute

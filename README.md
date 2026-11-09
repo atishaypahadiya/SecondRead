@@ -551,8 +551,8 @@ scripts/
   synth/            the synthetic suite: taxonomy, DEV and HELD transcripts, builder, runner
 docs/               index.html: the project page (GitHub Pages); img/ and demo.gif: the mockups
 project.yml         the project page's content, field by field
-design/             gallery.html (every UI state), reference boards, earlier screenshots
-DESIGN.md           the design language; MERGE_NOTES.md: how it was applied
+design/             gallery.html (every UI state), reference boards, earlier screenshots, MERGE_NOTES.md (how DESIGN.md was applied)
+DESIGN.md           the design language
 CLAUDE.md           pipeline specification, constraints, build log
 ```
 

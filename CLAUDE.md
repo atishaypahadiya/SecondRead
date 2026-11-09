@@ -75,8 +75,8 @@ second-read/                 (the folder may still be called sponsor-skipper on 
 │   ├── popup.html/css/js  action popup: all-time hero, this video (segments + its code/link), channel, categories, toggle last; codes pane
 │   ├── ui/              the design system: tokens.css, components.css, fonts.css / fonts-content.css, fonts/
 │   └── icons/           16/32/48/128 png
-├── design/              gallery.html (every state, next to the mockup crops), reference boards, screenshots
-├── DESIGN.md            the design language (source of truth for visuals); MERGE_NOTES.md how it was applied
+├── design/              gallery.html (every state, next to the mockup crops), reference boards, screenshots, MERGE_NOTES.md (how DESIGN.md was applied)
+├── DESIGN.md            the design language (source of truth for visuals)
 ├── scripts/
 │   ├── com.second-read.server.plist   LaunchAgent template (install.sh fills in paths)
 │   ├── install.sh / uninstall.sh          launchctl bootstrap / bootout
